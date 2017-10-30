@@ -8,6 +8,7 @@ header {
   width: 100%;
   position: fixed;
   height: 80px;
+  z-index: 5;
 }
 
 .logo span {
@@ -32,4 +33,27 @@ body {
 }
 header nav {
   padding-right: 50px;
+}
+
+.main_content {
+  display: flex;
+  padding-top: 110px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
 }
