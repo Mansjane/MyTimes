@@ -30,7 +30,11 @@ nav span a {
 
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
+
 header nav {
   padding-right: 50px;
 }
@@ -56,4 +60,33 @@ header nav {
   display: flex;
   flex-direction: column;
   margin: 30px;
+}
+
+.main_story .headline_image {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+}
+
+.headline_image {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.earth_backwards {
+  background-image: url("../images/img-story-2.png");
+}
+
+.erase_memory {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cats_control {
+  background-image: url("../images/cat.png");
 }
